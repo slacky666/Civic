@@ -9,7 +9,7 @@ export function SiteFooter() {
     >
 
         <div className='container mx-auto w-full my-9 text-xs leading-loose text-muted-foreground'>
-            DISCLOSURE: By purchasing $ALIENSKY coin, you agree that you are not purchasing a security or investment contract and you agree to hold the team harmless and not liable for any loses or taxes you may incur. Although ALIENSKY is a community driven Defi Ecosystem and not a registered digital currency, always make sure that you are in compliance with local laws and regulations before you make any purchase.
+            DISCLOSURE: By purchasing $CIVIC coin, you agree that you are not purchasing a security or investment contract and you agree to hold the team harmless and not liable for any loses or taxes you may incur. Although CIVIC is a community driven Defi Ecosystem and not a registered digital currency, always make sure that you are in compliance with local laws and regulations before you make any purchase.
         </div>
 
     </footer>

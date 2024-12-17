@@ -267,13 +267,32 @@ const Page = () => {
 
     return (
         <>
-        <Banner />
 
-        <div className="w-full overflow-hidden" id="howtobuy">
-          <Timeline data={data} />
+        <div className="w-full container absolute z-10 top-80 flex flex-col items-center gap-3">
+            <div className="text-xs font-bold text-center">
+              CivicRWxVB2QzqgD7N4ELJCVCDyammzNpRwhFc5RhCCZ
+            </div>
+            <div className="font-bold text-xl text-center">
+              JUST HOLD
+            </div>
+            <div className="text-sm text-center">
+              I will continue to complete the website & focus on our CIVIC community after work hours
+            </div>
+            <div className="text-sm text-center">
+                Welcome to Civic Coin, the digital currency designed specifically for Honda Civic owners and enthusiasts!.
+            </div>
+            <div className="text-sm text-center max-w-2xl">
+              Civic Coin aims to create a vibrant community that celebrates the passion, innovation, and culture surrounding one of the most popular cars on the road today.
+            </div>
         </div>
 
-        <Tokenomics />
+        <Banner />
+
+        {/* <div className="w-full overflow-hidden" id="howtobuy">
+          <Timeline data={data} />
+        </div> */}
+
+        {/* <Tokenomics /> */}
         </>
     )
 }

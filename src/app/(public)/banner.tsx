@@ -6,13 +6,13 @@ import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 const Banner = () => {
 
     return (
-        <div className="w-full h-[41.6rem] md:h-[48rem] xl:h-screen relative overflow-hidden flex flex-col">
+        <div className="w-full h-screen relative overflow-hidden flex flex-col">
 
           <div className="w-full h-full absolute flex justify-center items-end">
               <div className="h-44 w-44 md:w-80 md:h-80">
                   <Image
-                      src={`/bg-crop.png`}
-                      alt="logo abi"
+                      src={`/civic.png`}
+                      alt="logo civic"
                       height={0}
                       width={0}
                       sizes="100vw"
@@ -39,7 +39,7 @@ const Banner = () => {
 
                   <div className="w-full relative uppercase flex justify-center items-center">
                       <div className="absolute z-10 w-full h-[6rem] md:w-[75rem] md:h-[7rem]">
-                          <TextHoverEffect text="ALIENSKY"/>
+                          <TextHoverEffect text="Civic"/>
                       </div>
                   </div>
 
@@ -47,10 +47,10 @@ const Banner = () => {
 
                   <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))] text-xs md:text-xl">
                       <div className=" absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
-                          <span className="">Beyond the Moon in the Meme-iverse on the SOLANA blockchain !</span>
+                          <span className="">Our exclusive CA with the prefix Civic*****</span>
                       </div>
                       <div className=" relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4">
-                          <span className="">Beyond the Moon in the Meme-iverse on the SOLANA blockchain !</span>
+                          <span className="">Our exclusive CA with the prefix Civic*****</span>
                       </div>
                   </div>
 

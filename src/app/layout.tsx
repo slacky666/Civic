@@ -35,35 +35,32 @@ const shalimar = Shalimar({
 
 export const metadata: Metadata = {
   title: {
-    default: "Aliensky Coin",
+    default: "Civic Coin",
     template: "Aliensky Corp",
   },
-  metadataBase: new URL("https://aliensky.id/"),
-  description: "AlienSky - Beyond the Moon in the Meme-iverse",
+  metadataBase: new URL("https://civic.biz.id/"),
+  description: "Civic Coin: Empowering Honda Civic Enthusiasts",
   keywords: [
-    "aliensky",
-    "meme coin",
+    "civic",
+    "civic coin",
     "meme solana",
     "meme solana coin",
-    "aliensky meme",
-    "aliensky meme coin",
-    "whale checker",
-    "rugcheck",
-    "rug checker"
+    "civic meme",
+    "civic community"
   ],
   authors: [
     {
-      name: "hardcore",
-      url: "https://hardcore.biz.id",
+      name: "aliensky",
+      url: "https://aliensky.xyz",
     },
   ],
-  creator: "hardcore.biz.id",
+  creator: "aliensky",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
-  manifest: `https://aliensky.id/site.webmanifest`,
+  manifest: `https://civic.biz.id/site.webmanifest`,
 }
 
 export const viewport: Viewport = {
