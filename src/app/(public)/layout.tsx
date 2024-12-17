@@ -12,14 +12,14 @@ export default function Layout({
 
   return (
     <>
-      {/* <SiteHeader /> */}
+      <SiteHeader />
       <main className="flex-1">
         {children}
         {/* <Suspense fallback={null}>
           <ScrollToHashClient />
         </Suspense> */}
       </main>
-      {/* <SiteFooter /> */}
+      <SiteFooter />
     </>
   );
 }

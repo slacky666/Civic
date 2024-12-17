@@ -63,15 +63,15 @@ export function MobileNav() {
         >
           <div className="relative overflow-hidden w-7 h-7 mr-2">
           <Image
-              src="/bg-crop.png"
+              src="/civic.png"
               width={0}
               height={0}
               sizes="100vw"
-              alt="aliensky coin"
+              alt="civic coin"
               className="object-contain w-full h-full"
           />
           </div>  
-          <span className="font-bold">ALIENSKY</span>
+          <span className="font-bold">CIVIC</span>
         </MobileLink>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
           <div className="flex flex-col space-y-3">

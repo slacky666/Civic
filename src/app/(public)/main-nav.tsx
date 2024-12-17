@@ -29,14 +29,14 @@ export function MainNav() {
             <div className="flex-none w-32 h-full relative flex flex-row items-center">
                 <Link href="/" className="mr-4 flex items-center space-x-2 lg:mr-6">
                     <Image
-                        src={`/bg-crop.png`}
-                        alt="aliensky coin"
+                        src={`/civic.png`}
+                        alt="civic coin"
                         height='20'
                         width="20"
                         className="object-contain"
                     />
                     <span className=" font-bold lg:inline-block uppercase text-xl">
-                      aliensky
+                      civic
                     </span>
                 </Link>
             </div>
