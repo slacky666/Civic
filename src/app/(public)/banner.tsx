@@ -19,7 +19,7 @@ const Banner = () => {
                       className="object-contain w-full h-full"
                   />
               </div>
-              <div className="absolute w-96 h-96 ml-32 mb-20 md:ml-64 md:mb-40">
+              {/* <div className="absolute w-96 h-96 ml-32 mb-20 md:ml-64 md:mb-40">
                   <Image
                       src={`/hello.png`}
                       alt="logo abi"
@@ -28,7 +28,7 @@ const Banner = () => {
                       sizes="100vw"
                       className="object-contain w-full h-full"
                   />
-              </div>
+              </div> */}
           </div>
 
           <BackgroundBeamsWithCollision>
