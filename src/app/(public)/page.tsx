@@ -268,7 +268,7 @@ const Page = () => {
     return (
         <>
 
-        <div className="w-full container absolute z-10 top-80 flex flex-col items-center gap-3">
+        <div className="px-4 md:px-0 w-full absolute z-10 top-[19rem] flex flex-col items-center gap-3">
             <div className="text-xs font-bold text-center">
               CivicRWxVB2QzqgD7N4ELJCVCDyammzNpRwhFc5RhCCZ
             </div>
